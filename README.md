@@ -99,3 +99,9 @@ This folder contains organized cybersecurity knowledge, categorized by domain.
 - [Links](Reference/_Links.md) - External resources and tools
 - [Namings](Reference/_Namings.md) - Abbreviations, acronyms, and terminology
 - [PT1-Modules](PT1-Modules.md) - Penetration testing learning modules
+
+---
+
+## ⚠️ Disclaimer
+
+This content is for educational purposes and authorized security testing only. Tools, techniques, and commands referenced here must only be used on systems you own or have explicit permission to test. See [LICENSE](LICENSE) for usage terms of this content.
