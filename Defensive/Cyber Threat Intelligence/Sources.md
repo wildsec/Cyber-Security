@@ -1,0 +1,4 @@
+- **Internal telemetry:** SIEM logs, EDR detections, phishing-mailbox submissions provide the highest immediate relevance.
+- **Commercial services:** Vendor premium feeds, paid sandboxes**,** and closed-source analytics. These provide high fidelity, but may have export and sharing limits based on licensing.
+- **Open-source intelligence (OSINT):** AbuseIPDB, URLhaus, public blogs with IOCs, and academic research. Before applying, information from these sources will need to be cross-confirmed.
+- **Communities & ISACs:** Sector-specific lists marked with labels and rich context (e.g., FS-ISAC)

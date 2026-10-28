@@ -1,0 +1,2 @@
+**D3FEND** (Detection, Denial, and Disruption Framework Empowering Network Defense) is a structured framework that maps out defensive techniques and establishes a common language for describing how security controls work. D3FEND comes with its own [matrix](https://d3fend.mitre.org/), which is broken down into seven tactics, each with its associated techniques and IDs.
+![[Pasted image 20260304140816.png]]

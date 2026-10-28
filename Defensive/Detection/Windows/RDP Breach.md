@@ -1,0 +1,8 @@
+[[EventViewer]]
+
+| #   | Step of Attack                                                                                                                | Detection Opportunity                                                                                                         |
+| --- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Network Scan**  <br>Botnet scans our IP and detects an exposed RDP port                                                     | e.g. Wireshark                                                                                                                |
+| 2   | **RDP Brute Force**  <br>Botnet starts a brute force of common user names  <br>(Administrator, admin, support, etc.)          | EventId: 4625<br>LogonType: 3, 10 (remote)                                                                                    |
+| 3   | **Initial Access via RDP**  <br>After around 100 attempts, the botnet guesses  <br>the correct password and enters the system | EventId: 4624                                                                                                                 |
+| 4   | **Further Malicious Actions**  <br>Two hours after the breach, the threat actor  <br>logs in via RDP and reviews the Desktop  | LogonType: 10 (interactive RDP Loging)<br>Copy "Logon ID" -> OpenSysmon logs and search with ID -> get processes done with ID |

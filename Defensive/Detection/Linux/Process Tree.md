@@ -1,0 +1,3 @@
+A common SOC scenario is when you receive an alert about a suspicious command, let's say `whoami`. Why was it executed - due to IT activity, or maybe a service breach? To answer this, all you need is to build a process tree and trace the command back to its parent process, as shown in the image below:
+![[Pasted image 20260315094313.png]]
+Continuing the example, you begin by locating the suspicious command in the logs with `ausearch -i -x whoami`. Next, you walk up the process tree using the `--pid` option until you reach PID 1, the OS process. The tree eventually shows that `whoami` was launched by a Python web application (`/opt/mywebapp/app.py`). This immediately raises the question:
