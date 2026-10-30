@@ -44,7 +44,7 @@ Secure Software Development Lifecycle
 4. **Continuous Monitoring**: Security doesn't end at deployment  
   
 ### Cybersecurity Application  
-- Reduces cost of vulnerability remediation (100x cheaper pre-deployment)  
+- Reduces cost of vulnerability remediation (fixing early is often cited as far cheaper than post-deployment)  
 - Prevents security debt accumulation  
 - Enables DevSecOps culture  
 - Compliance with CRA, IEC 62443, and industry requirements  

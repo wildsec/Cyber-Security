@@ -7,5 +7,5 @@ An **Autonomous System (AS)** is a collection of IP prefixes under a single orga
 Some heuristic examples of ASN classification include:
 - **AS32934 - Facebook/Meta**
 - **AS16509 - Amazon AWS**
-- **AS124888 - Vodafone**
+- **AS1273 - Vodafone Group**
 

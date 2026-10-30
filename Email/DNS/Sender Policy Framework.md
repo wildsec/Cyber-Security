@@ -7,8 +7,11 @@
 | Verification Result | Intended Action |
 |---------------------|-----------------|
 | Pass, Neutral, None | Accept (Allow and process the email) |
-| SoftFail, PermError | Flag (Mark as suspicious but allow) |
-| Fail, TempError | Reject (Immediately discard the email) |
+| SoftFail | Flag (Mark as suspicious but allow) |
+| Fail, PermError | Reject (Permanent rejection, e.g. SMTP 550; PermError = the domain's SPF record is invalid or cannot be interpreted) |
+| TempError | Defer (Temporary rejection, e.g. SMTP 451, so the sender retries; TempError = transient DNS error) |
+
+Per RFC 7208 section 8.
 
 ## SPF Records
 

@@ -39,6 +39,6 @@ Below are some of the EDR solutions in the market:
 
 ## Related Topics
 - [IDS](Intrusion%20Systems/IDS.md) - Intrusion Detection Systems
-- [General](Defensive/SIEM/General.md) - Security Information and Event Management
+- [General](SIEM/General.md) - Security Information and Event Management
 - [SOC](SOC/General.md) - Security Operations Center
 - [ATT&CK](../Frameworks/MITRE/ATT&CK.md) - MITRE ATT&CK Framework for threat mapping

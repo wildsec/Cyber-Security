@@ -11,7 +11,7 @@
 ---  
   
 ### Zero Trust (Modern Model)  
--> is essentially [[ISO IEC 19249]] principles applied at enterprise scale
+-> shares ideas with the architectural principles of [[ISO IEC 19249]] (e.g. least privilege, domain separation), but is defined separately, e.g. in NIST SP 800-207
   
 | Aspect | Description |  
 |--------|-------------|  

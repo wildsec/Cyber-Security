@@ -29,7 +29,7 @@ Preparation -> Detection and Analysis -> Containment, Eradication and Recovery -
 - Escalation path to be followed
 
 ## Technology
-- **SIEM:** [General](Defensive/SIEM/General.md) - The Security Information and Event Management Solution collects all important logs in one centralized location and correlates them to identify incidents.
+- **SIEM:** [General](SIEM/General.md) - The Security Information and Event Management Solution collects all important logs in one centralized location and correlates them to identify incidents.
 - **AV:** Antivirus detects known malicious programs in a system and regularly scans your system for these.
 - **EDR:** [EDR](EDR.md) - Endpoint Detection and Response is deployed on every system, protecting it against some advanced-level threats. This solution can also contain and eradicate the threat.
 

@@ -19,7 +19,7 @@ It is important to know that when reading an email header every line can be forg
 - This shows to whom the message was addressed, but may not contain the recipient's address.
 
 ### Return-Path
-- The email address for return mail. This is the same as "Reply-To:".
+- The bounce address (envelope sender / SMTP `MAIL FROM`) where delivery failures (NDRs) are sent. It is not the same as "Reply-To:", which is the address replies go to and can differ.
 
 ### Envelope-To
 - This header shows that this email was delivered to the mailbox of a subscriber whose email address is user@example.com.

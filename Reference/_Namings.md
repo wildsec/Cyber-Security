@@ -42,7 +42,7 @@
 | CIRT                              | Cyber Incident Response Team                                    | [Incident Response](../Defensive/Incident%20Response.md)                                                   |
 | SOC                               | Security Operations Center                                      | [SOC](../Defensive/SOC/General.md)                                                                         |
 | MSSP                              | Managed Security Services Provider                              |                                                                                                            |
-| SIEM                              | Security Information and Event Management                       | [General](Defensive/SIEM/General.md)                                                                               |
+| SIEM                              | Security Information and Event Management                       | [General](../Defensive/SIEM/General.md)                                                                               |
 | IAAA                              | Identity, Authentication, Authorisation, and Accountability     | [IAAA](../Principles/IAAA.md)                                                                              |
 | OSINT                             | Open Source Intelligence                                        |                                                                                                            |
 | IDOR                              | Insecure Direct Object Reference                                |                                                                                                            |

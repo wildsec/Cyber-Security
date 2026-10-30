@@ -57,14 +57,13 @@ sha1sum *.txt
 sha256sum *.txt
 ```
 
-- **P (Polynomial Time)**
-- **NP (Non-deterministic Polynomial Time)**
+- **P (Polynomial Time)**: problems solvable in polynomial time.
+- **NP (Non-deterministic Polynomial Time)**: problems whose solutions can be verified in polynomial time.
 
 ### Windows Passwords
 * NTHash / NTLM format
 * SAM is store location for account info
 * dumping SAM with Mimikatz or AD db: NTDS.dit
-* 
 
 ### Linux Passwords
 On Linux, password hashes are stored in `/etc/shadow`, which is normally only readable by root. They used to be stored in `/etc/passwd`, which was readable by everyone.

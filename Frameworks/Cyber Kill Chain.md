@@ -8,6 +8,7 @@ The term **kill chain** is a military concept related to the structure of an att
 After a successful reconnaissance stage, "Megatron" would work on turning the raw information into actionable attack tools through crafting **malware** and **exploits** into a **payload**.
 
 ## Delivery
+The weaponized payload is transmitted to the target, e.g. via phishing email, malicious link or attachment, drive-by download, or removable media.
 
 ## Exploitation
 Exploitation is the moment the attacker's code executes on the target, taking advantage of a known vulnerability.
@@ -30,7 +31,7 @@ The most common C2 channels used by adversaries include:
     
 - DNS (Domain Name Server), where the infected machine makes constant DNS requests to the DNS server that belongs to an attacker, this type of C2 communication is also known as DNS Tunneling
 
-## Exfiltration
+## Actions on Objectives
 With hands-on keyboard access, the attacker can achieve the following: 
 
 - Collect the credentials from users.

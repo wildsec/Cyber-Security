@@ -12,7 +12,7 @@ All these logs provide a wealth of information and can help identify security is
     SIEM solutions can also be configured to listen on a certain port, and then the endpoints forward the data to the SIEM instance on the listening port.
 
 ## Related Topics
-- [General](Defensive/SIEM/General.md) - Security Information and Event Management
+- [General](../Defensive/SIEM/General.md) - Security Information and Event Management
 - [Log Sources](Log%20Sources.md) - Available log sources
 - [Splunk](../Defensive/SOC/Tools/Splunk.md) - Splunk SIEM platform
 - [Elastic Stack](../Defensive/Tools/Elastic%20Stack.md) - ELK stack

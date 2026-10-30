@@ -4,7 +4,7 @@ Every artefact demands a tailored enrichment path. Memorising tools is less impo
 
 |Indicator|Example|First Resources|Associated IOA or TTP Examples|
 |---|---|---|---|
-|**IPv4 / IPv6**|`45.155.205.3`|• WHOIS (ASN, allocation date) · VirusTotal Relations· Shodan banner scan|IOA: Repeated SSH failures TTP: `T1110.003`Password Guessing|
+|**IPv4 / IPv6**|`45.155.205.3`|• WHOIS (ASN, allocation date) · VirusTotal Relations· Shodan banner scan|IOA: Repeated SSH failures TTP: `T1110.003` Password Spraying (Password Guessing = `T1110.001`)|
 |**Domain / FQDN**|`malicious-updates[.]net`|• WHOIS age · RiskIQ or SecurityTrails passive-DNS · urlscan.io|IOA: surge of DNS queries to a 24-hour-old domain|
 |**URL**|`hxxp://malicious-updates[.]net/login`|• URLhaus reputation · urlscan.io behaviour graph · Any.Run dynamic run (network off)|IOA: Browser POST to /gateway.php with payload|
 |**File hash**|`e99a18c428cb38d5…`|• VirusTotal static & dynamic · Hybrid-Analysis · MalShare corpus|TTP: T1055 Process Injection into regsvr32.exe|

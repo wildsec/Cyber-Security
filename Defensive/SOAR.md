@@ -26,5 +26,5 @@ Think of it like a **security incident recipe** that runs automatically.
 
 ## Related Topics
 - [SOC](SOC/General.md) - Security Operations Center
-- [General](Defensive/SIEM/General.md) - Security Information and Event Management
+- [General](SIEM/General.md) - Security Information and Event Management
 - [Blue Team](Blue%20Team.md) - Defensive security team
